@@ -8,6 +8,8 @@ In the project directory, you can run:
 
 ### `npm start`
 
+Demo:https://app.netlify.com/sites/spontaneous-muffin-e124ee/deploys/64c01272a1d42607b8b8a2b8
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
