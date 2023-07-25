@@ -1,0 +1,75 @@
+/* styles.css */
+ .shadow-sms:hover {
+    box-shadow: 0px 0px 10px 0px rgba(249, 0, 0, 0.5); 
+    transition: 'box-shadow 0.2s'
+  } 
+  
+  .shopTitle {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+  }
+  .products {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+  
+  .product {
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product img {
+    width: 400px;
+  }
+  
+  .product .description {
+    text-align: center;
+  }
+  
+  .product:hover {
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+  
+  .addToCartBttn {
+    background-color: transparent;
+    border: 2px solid rgb(19, 19, 19);
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+  }
+  
+  .addToCartBttn:hover {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    cursor: pointer;
+  }
+  
+
+/* Add this CSS in your stylesheet or inside the <style> tag in your React component */
+.card.expanded {
+  width: 100rem;
+  max-height: none;
+  z-index: 1;
+}
+
+.card.expanded .card-body {
+  pointer-events: auto;
+}
+
+.card.expanded ~ .card {
+  display: none;
+}

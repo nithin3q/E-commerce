@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  background-color:#efefef ;
+}
+
+
+
+/* ... (existing styles) */
+
+.message {
+  /* ... (existing styles for the message) */
+}
+
+.play-again {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  
+  background-color: #017775;
+  color: rgb(0, 34, 43);
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  display: flex;
+  flex-direction: row;
+  margin: 2rem auto;
+  
+}
+
+.play-again:hover {
+  background-color: #003339;
+  color: #ffffff;
+}
+
+.fa-rotate-right {
+  margin-right: 8px;
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* .message{
+  display: flex;
+  flex-direction: row;
+  margin: 2rem auto;
+  
+  width: 120px;
+  text-align: center;
+  align-items: center;
+
+} */
